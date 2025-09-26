@@ -17970,7 +17970,7 @@ if (!self.__WB_pmw) {
                         const e = k().$implicit,
                             i = k(),
                             r = Pe(67);
-                        D("ngClass", i.skillBtnClass(e))("ngStyle", i.skillBtnStyle(e))("ngbPopover", r), g(2), Ni("src", "/assets/img/sk_", e.id, ".png", Ti)
+                        D("ngClass", i.skillBtnClass(e))("ngStyle", i.skillBtnStyle(e))("ngbPopover", r), g(2), Ni("src", "assets/img/sk_", e.id, ".png", Ti)
                     }
                 }
 
@@ -18032,7 +18032,7 @@ if (!self.__WB_pmw) {
                     }
                     if (2 & t) {
                         const e = n.$implicit;
-                        g(2), Ni("src", "/assets/img/sk_", e.id, ".png", Ti), g(1), Se(" ", e.name, "")
+                        g(2), Ni("src", "assets/img/sk_", e.id, ".png", Ti), g(1), Se(" ", e.name, "")
                     }
                 }
 
@@ -18074,7 +18074,7 @@ if (!self.__WB_pmw) {
                     if (1 & t && (d(0, "div", 30), d(1, "div", 145), ee(2, "img", 146), f(), d(3, "div", 143), ee(4, "div", 144), d(5, "div", 31), _(6), qe(7, "number"), qe(8, "number"), f(), f(), O(9, Z8, 1, 3, "div", 147), f()), 2 & t) {
                         const e = n.$implicit,
                             i = k();
-                        g(2), Ni("src", "/assets/img/su_", e.type, ".png", Ti), D("title", i.summonName(e)), g(2), ci("width: ", i.progSummonLife(e), "%"), g(2), et("", tn(7, 8, e.life, "1.0-0"), " / ", tn(8, 11, i.summonMaxLife(e), "1.0-0"), ""), g(3), D("ngIf", i.summonSpeed(e))
+                        g(2), Ni("src", "assets/img/su_", e.type, ".png", Ti), D("title", i.summonName(e)), g(2), ci("width: ", i.progSummonLife(e), "%"), g(2), et("", tn(7, 8, e.life, "1.0-0"), " / ", tn(8, 11, i.summonMaxLife(e), "1.0-0"), ""), g(3), D("ngIf", i.summonSpeed(e))
                     }
                 }
 
@@ -18215,7 +18215,7 @@ if (!self.__WB_pmw) {
                         const e = n.$implicit,
                             i = k(2),
                             r = Pe(139);
-                        qn(i.isSkillLocked(e) ? "opacity-50" : ""), D("ngbPopover", r)("popoverTitle", e.name), g(2), D("ngIf", i.dataService.skillLevel(e.id) != i.slvl(e.id)), g(1), D("ngIf", i.dataService.skillLevel(e.id) == i.slvl(e.id)), g(2), Ni("src", "/assets/img/sk_", e.id, ".png", Ti), g(2), Ye(e.name), g(1), D("ngIf", i.data.srem > 0)
+                        qn(i.isSkillLocked(e) ? "opacity-50" : ""), D("ngbPopover", r)("popoverTitle", e.name), g(2), D("ngIf", i.dataService.skillLevel(e.id) != i.slvl(e.id)), g(1), D("ngIf", i.dataService.skillLevel(e.id) == i.slvl(e.id)), g(2), Ni("src", "assets/img/sk_", e.id, ".png", Ti), g(2), Ye(e.name), g(1), D("ngIf", i.data.srem > 0)
                     }
                 }
 
@@ -18410,7 +18410,7 @@ if (!self.__WB_pmw) {
                             i = k(2);
                         (function Im(t, n, e, i, r) {
                             li(kn, Ai, Cs(ne(), t, n, e, i, r), !0)
-                        })("d-flex flex-column mx-1 p-1 border border-2 rounded cl ", i.data.cl == e.id ? "selected" : "", " ", i.data.cl == e.id || i.isClassAllowed(e) ? "" : "opacity-50", ""), g(2), Ye(e.name), g(1), Ni("src", "/assets/img/", e.id, ".png", Ti), g(1), D("innerHTML", e.desc, fn), g(5), D("ngIf", e.id), g(2), Un("me-1 fas fa-", i.data.lvl >= i.dataService.classLvlReq(e.id) ? "check" : "times", ""), g(2), Se("Level: ", i.dataService.classLvlReq(e.id), ""), g(1), D("ngIf", !i.dataService.isClassUnlocked(e.id)), g(1), D("ngIf", i.dataService.isClassUnlocked(e.id)), g(1), D("ngIf", e.id && i.data.cl != e.id)
+                        })("d-flex flex-column mx-1 p-1 border border-2 rounded cl ", i.data.cl == e.id ? "selected" : "", " ", i.data.cl == e.id || i.isClassAllowed(e) ? "" : "opacity-50", ""), g(2), Ye(e.name), g(1), Ni("src", "assets/img/", e.id, ".png", Ti), g(1), D("innerHTML", e.desc, fn), g(5), D("ngIf", e.id), g(2), Un("me-1 fas fa-", i.data.lvl >= i.dataService.classLvlReq(e.id) ? "check" : "times", ""), g(2), Se("Level: ", i.dataService.classLvlReq(e.id), ""), g(1), D("ngIf", !i.dataService.isClassUnlocked(e.id)), g(1), D("ngIf", i.dataService.isClassUnlocked(e.id)), g(1), D("ngIf", e.id && i.data.cl != e.id)
                     }
                 }
 
@@ -19216,7 +19216,7 @@ if (!self.__WB_pmw) {
                                 return this.data.inv.filter(e => e.item.potion)
                             }
                             potionImg(e) {
-                                return -1 != e.id.indexOf("healing") ? "/assets/img/potion.png" : -1 != e.id.indexOf("mana") ? "/assets/img/potionm.png" : -1 != e.id.indexOf("thawing") ? "/assets/img/potiont.png" : -1 != e.id.indexOf("antidote") ? "/assets/img/potiona.png" : "/assets/img/potiond.png"
+                                return -1 != e.id.indexOf("healing") ? "assets/img/potion.png" : -1 != e.id.indexOf("mana") ? "assets/img/potionm.png" : -1 != e.id.indexOf("thawing") ? "assets/img/potiont.png" : -1 != e.id.indexOf("antidote") ? "assets/img/potiona.png" : "assets/img/potiond.png"
                             }
                             selectPotion(e, i, r) {
                                 this.data.quickslots.potions[i] = e.id, r.close()
@@ -19412,7 +19412,7 @@ if (!self.__WB_pmw) {
                             vars: 85,
                             consts: [
                                 [1, "d-flex", "bg-dark", "text-light", "p-2", "align-items-center", "topbar", "border-bottom"],
-                                ["src", "/assets/img/icon.png", 1, "me-2"],
+                                ["src", "assets/img/icon.png", 1, "me-2"],
                                 [1, "me-5"],
                                 ["placement", "bottom", "triggers", "mouseenter:mouseleave", 3, "ngbPopover", 4, "ngIf"],
                                 ["id", "exile-btn", "class", "btn btn-warning btn-sm ms-1", 3, "click", 4, "ngIf"],
@@ -19553,7 +19553,7 @@ if (!self.__WB_pmw) {
                                 ["type", "checkbox", "id", "autocast", 1, "me-1", 3, "checked", "change"],
                                 ["for", "autocast"],
                                 ["class", "d-flex", 4, "ngIf"],
-                                ["src", "/assets/img/su_merc.png", 3, "title"],
+                                ["src", "assets/img/su_merc.png", 3, "title"],
                                 [1, "progress", 2, "width", "120px"],
                                 [1, "progress-bar", "bg-merc"],
                                 [1, "me-1"],
@@ -19741,7 +19741,7 @@ if (!self.__WB_pmw) {
                                         return i.closeTuto()
                                     }), _(165, "Got it !"), f(), f(), f(), f()
                                 }
-                                2 & e && (Un("vh-100 overflow-hidden ", i.data.dark ? "dark" : "", ""), g(1), oi(i.topbarStyle()), g(5), D("ngIf", i.data.relics), g(1), D("ngIf", i.data.lvl >= 10), g(5), Un("pointer fas fa-", i.data.pause || i.data.autopause ? "play text-warning" : "pause", ""), g(3), Se(" Save (", i.saveTime(), "s) "), g(7), D("ngIf", i.data.activeshrine), g(1), D("ngIf", i.data.stun), g(1), D("ngIf", i.data.frozen), g(1), D("ngIf", i.data.poisoned), g(4), D("ngIf", i.data.maxmercs), g(4), D("ngIf", i.data.l.length > 3), g(2), D("ngIf", i.dataService.isUnlocked("act2")), g(1), D("ngForOf", i.conf.l[i.actTab]), g(2), D("ngIf", i.dataService.isUnlocked("achiev")), g(3), Un("flex-fill progress ", i.data.frozenarmor ? "border border-info border-3" : "", ""), g(1), ci("width: ", i.progLife(), "%"), Un("progress-bar ", i.data.poisoned ? "bg-poison" : i.data.frozen ? "bg-frozen" : "bg-life", ""), g(2), et("", yt(45, 76, i.data.life), " / ", i.dataService.maxLife(), ""), g(2), ci("--value:", i.progRep(), ""), g(2), ci("width: ", i.progMana(), "%"), g(2), et("", tn(51, 78, i.data.mana, "1.0-0"), " / ", i.dataService.maxMana(), ""), g(3), D("ngIf", i.data.pause || i.data.autopause), g(1), D("ngForOf", i.data.m), g(2), D("ngForOf", i.data.logs), g(3), D("ngIf", i.dataService.isUnlocked("potions")), g(6), D("ngForOf", i.quickslots()), g(6), D("checked", i.data.showHitLogs), g(3), D("checked", i.data.showKillLogs), g(3), D("checked", i.data.showGoldLogs), g(3), D("checked", i.data.showNonMagicalItemsLogs), g(4), D("ngForOf", i.data.merc), g(1), D("ngForOf", i.data.summons), g(2), D("ngIf", i.data.shrine), g(4), Ni("src", "/assets/img/", i.data.cl, ".png", Ti), D("title", i.conf.cl[i.data.cl].name), g(1), Se(" level ", i.data.lvl, " "), g(2), D("ngIf", i.dataService.isUnlocked("classes")), g(3), ci("width: ", i.progXp(), "%"), g(2), et("xp: ", yt(100, 81, i.data.xp), " / ", yt(101, 83, i.dataService.xpReq()), ""), g(3), D("activeId", i.tab), g(2), D("ngbNavItem", 0), g(4), D("ngIf", i.data.rem), g(1), D("ngbNavItem", 1), g(4), D("ngIf", i.data.srem), g(1), D("ngbNavItem", 2), g(4), D("ngIf", i.conf.quests.length > i.data.quest && i.conf.quests[i.data.quest].check(i.dataService)), g(1), D("ngbNavItem", 3), g(4), D("ngIf", 3 == i.tab), g(1), D("ngIf", 2 == i.tab), g(1), D("ngIf", 1 == i.tab), g(1), D("ngIf", 0 == i.tab), g(2), Se(" v. ", i.conf.versions[i.conf.version], " "), g(26), Un("border border-2 ", i.data.dark ? "dark" : "", " popover show bs-popover-end"))
+                                2 & e && (Un("vh-100 overflow-hidden ", i.data.dark ? "dark" : "", ""), g(1), oi(i.topbarStyle()), g(5), D("ngIf", i.data.relics), g(1), D("ngIf", i.data.lvl >= 10), g(5), Un("pointer fas fa-", i.data.pause || i.data.autopause ? "play text-warning" : "pause", ""), g(3), Se(" Save (", i.saveTime(), "s) "), g(7), D("ngIf", i.data.activeshrine), g(1), D("ngIf", i.data.stun), g(1), D("ngIf", i.data.frozen), g(1), D("ngIf", i.data.poisoned), g(4), D("ngIf", i.data.maxmercs), g(4), D("ngIf", i.data.l.length > 3), g(2), D("ngIf", i.dataService.isUnlocked("act2")), g(1), D("ngForOf", i.conf.l[i.actTab]), g(2), D("ngIf", i.dataService.isUnlocked("achiev")), g(3), Un("flex-fill progress ", i.data.frozenarmor ? "border border-info border-3" : "", ""), g(1), ci("width: ", i.progLife(), "%"), Un("progress-bar ", i.data.poisoned ? "bg-poison" : i.data.frozen ? "bg-frozen" : "bg-life", ""), g(2), et("", yt(45, 76, i.data.life), " / ", i.dataService.maxLife(), ""), g(2), ci("--value:", i.progRep(), ""), g(2), ci("width: ", i.progMana(), "%"), g(2), et("", tn(51, 78, i.data.mana, "1.0-0"), " / ", i.dataService.maxMana(), ""), g(3), D("ngIf", i.data.pause || i.data.autopause), g(1), D("ngForOf", i.data.m), g(2), D("ngForOf", i.data.logs), g(3), D("ngIf", i.dataService.isUnlocked("potions")), g(6), D("ngForOf", i.quickslots()), g(6), D("checked", i.data.showHitLogs), g(3), D("checked", i.data.showKillLogs), g(3), D("checked", i.data.showGoldLogs), g(3), D("checked", i.data.showNonMagicalItemsLogs), g(4), D("ngForOf", i.data.merc), g(1), D("ngForOf", i.data.summons), g(2), D("ngIf", i.data.shrine), g(4), Ni("src", "assets/img/", i.data.cl, ".png", Ti), D("title", i.conf.cl[i.data.cl].name), g(1), Se(" level ", i.data.lvl, " "), g(2), D("ngIf", i.dataService.isUnlocked("classes")), g(3), ci("width: ", i.progXp(), "%"), g(2), et("xp: ", yt(100, 81, i.data.xp), " / ", yt(101, 83, i.dataService.xpReq()), ""), g(3), D("activeId", i.tab), g(2), D("ngbNavItem", 0), g(4), D("ngIf", i.data.rem), g(1), D("ngbNavItem", 1), g(4), D("ngIf", i.data.srem), g(1), D("ngbNavItem", 2), g(4), D("ngIf", i.conf.quests.length > i.data.quest && i.conf.quests[i.data.quest].check(i.dataService)), g(1), D("ngbNavItem", 3), g(4), D("ngIf", 3 == i.tab), g(1), D("ngIf", 2 == i.tab), g(1), D("ngIf", 1 == i.tab), g(1), D("ngIf", 0 == i.tab), g(2), Se(" v. ", i.conf.versions[i.conf.version], " "), g(26), Un("border border-2 ", i.data.dark ? "dark" : "", " popover show bs-popover-end"))
                             },
                             directives: [lr, Db, Nc, $s, kc, Pp, O_, B_, r8],
                             pipes: [ba, Jl, V_],
