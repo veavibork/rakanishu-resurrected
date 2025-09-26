@@ -1,0 +1,146 @@
+Created by https://www.reddit.com/user/Quetzalcoatl__/
+
+As of ~2 years ago:
+
+"Hello, thank you for that comment about Rakanishu!
+
+Yes I dropped it, the game mechanics became much more complex than I expected it to be
+which means that every small change took me a lot of time to not break game balance.
+Also I wasn't very happy about the next upgrade I was working on so I figured it was
+not worth the time.
+
+I'm glad you enjoyed it though !"
+
+The game has only been available to play on archive.org:
+https://web.archive.org/web/20230607032938/https://rakanishu.netlify.app/
+
+While the game itself works, it's missing critical functionality (save/load in browser
+memory) as well as less critical (most of the icons). My only contribution so far is to
+get it up and running again, and to replace the missing icons to the best of my ability.
+
+Here lies the most recent changelog (I think) captured 9/27/2022:
+
+*v0.3.3*
+- (feature) changed requirement for Druid from unique equipped to rakanishu killed
+- (balance) increase "The Forgotten Tower" xp gain on completion
+
+*v0.3.2*
+- (balance) frenzy & concentrate not stacking anymore
+- (balance) staff & druid helmets price lowered
+- (balance) Several hireling skills have been buffed
+- (fix) Druid helmets should not get +n to barb/sorc skills
+- (fix) Achievements now unlocks when you finish act I or if you get an achievement
+- (fix) Items that gives skill bonus now require the same level as the skill
+- (fix) Added minimum gambling price
+
+*v0.3.1*
+- (fix) Flayer Jungle boss fixed
+- (fix) Frenzy does not affect speed
+
+*v0.3.0*
+- (major) new class: Druid with 8 new skills
+- (major) act III with new quests, new monsters, new bosses
+- (feature) more items, more magical effects, a lot of new uniques
+- (feature) a lot of new achievements
+- (feature) hirelings damages taken overhaul
+- (feature) hireling new skills: defense & magic resistance
+- (feature) new skill for apprentice: summon crow
+- (balance) fire and ice mastery calculation changed (skill level effect increased & cast nb effect reduced)
+- (balance) Rings & amulet price increased
+- (balance) Resistance reduction by act increased from 5 to 8
+- (balance) Hirelings max life increased
+- (qol) added warning when exiling without full stash
+- (ui) refresh skill popover on skill point increase
+- (fix) unique objects missing defense
+- (fix) attack speed claculation
+
+*v0.2.4*
+- (qol) ability to recruit lower level hirelings
+- (ui) changed description of fire/cold mastery to show it only applies to active spells and not passives
+- (ui) changed repair to create for unique items from shards
+- (fix) nb of skill quickslot is not reseting on prestige
+- (fix) skills that are lost are now removed from quickslots
+
+*v0.2.3*
+- (feature) added Mana freeze skill for Sorceress
+- (feature) added Shock skill for Apprentice
+- (feature) 4 new unique items !
+- (balance) restore life & magic missile buffed
+- (balance) added 1 skill quickslot on level 6
+- (balance) energy effect on mana regen increased
+- (qol) allocate 5 attribute points by holding ctrl
+- (ui) added item type on unique items description
+- (ui) changed suffixes for mana regen items
+- (ui) minor improvements
+- (fix) issue with potions not droping on higher level
+- (fix) issue when game would not unpause
+
+*v0.2.2*
+- (feature) hard reset option added
+- (ui) making it more obvious when game is paused
+- (fix) minor fixes
+
+*v0.2.1*
+- (fix) bug that will not unlock Act II on update
+
+*v0.2.0*
+- (major) act 2
+- (major) added mercenaries: Sellers, Apprentice, Fighter
+- (feature) more items (including 7 uniques !), more potions, more monsters, more quests
+- (feature) more magical effects:  skill bonus, freeze duration, poison length, cast rate, life regen, mana regen
+- (feature) shards to collect in order to create unique items
+- (feature) new shrines: Armor, Combat, Skills, resistances
+- (feature) added a few achievements (list will be completed in later releases)
+- (feature) auto cast for sorceress
+- (feature) added staves for sorceress
+- (feature) 2 new spells for sorceress: Frozen orb & cold mastery
+- (feature) added possibility to cast some spells while in camp
+- (feature) skills sorted by category
+- (feature) maces are more effective against undeads
+- (feature) lightning enchanted monsters now deal lightning damages when hit
+- (feature) possibility to get stunned which prevent moving & using skills
+- (balance) gambling cost now depends on char level
+- (balance) fire mastery now take all casts into account and not only exile cast
+- (balance) sorceress spells buffed
+- (balance) natural Resistance & Iron skin have been nerfed
+- (balance) frozen armor protect against being stunned
+- (balance) bash have 25% to stun instead of 100% previously
+- (balance) -5 resistance penalty per act
+- (balance) gold drop significantly increased
+- (ui) show when player / monster / merc will hit
+- (ui) added life and mana regen rate on attributes page
+- (ui) added scrollbar on attributes page for smaller screens
+- (ui) added rarity value on item desc to help colorblind people
+- (ui) inventory does not hide life bar anymore
+- (ui) added option to restrict level list to home and last 2 levels
+- (ui) more stats: freeze duration, poison length, magic find
+- (ui) more minor changes
+- (ui) better xp display on big numbers
+- (ui) added option to hide non magical item drops or gold drops in logs
+- (fix) relics bonus was not applied in some cases
+- (fix) opening inventory with the I key did not trigger auto-pause
+- (fix) poison & freeze effects are removed upon getting to camp
+- (fix) spell duration and cooldown are now separate status
+- (fix) potion & gold drop now depends on monster level instead of player level (same as items)
+- (fix) fixed height on life & mana bar for smaller screens
+- (fix) weapon speed calculation was wrong
+- (fix) issue with chances to block calculation on low dex
+- (fix) issue when you could get to next level without killing boss
+- (fix) issue when amulets & rings would stop dropping on higher levels
+- (misc) added paypal link for donations
+
+*v0.1.1*
+- (qol) Added item compare panel in inventory
+- (qol) Added auto-pause option when opening inventory (See options menu)
+- (ui) Monster lifebar color changes when poisoned or frozen
+- (balance) Bash has been nerfed - shorter duration and added a cooldown
+- (balance) Minor changes on drop rates and damage calculation
+- (fix) Imbue only applies on non magical items
+- (fix) Mana potions fix
+- (fix) Poison dmg calculation + better display of poison dmg
+- (fix) Item level requirements now apply
+- (fix) When requirements are lost, unavailable items will be unequipped
+- (fix) Sometimes item disappear when using the imbue option
+
+*v0.1.0*
+- Initial release
