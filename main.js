@@ -18319,7 +18319,7 @@ if (!self.__WB_pmw) {
                         const e = xe();
                         d(0, "div", 169), d(1, "h5", 170), _(2, "Support & Credits"), f(), d(3, "button", 171), ie("click", function() {
                             return pe(e).$implicit.dismiss()
-                        }), d(4, "span", 172), _(5, "\xd7"), f(), f(), f(), d(6, "div", 173), d(7, "h3"), _(8, "Support"), f(), d(9, "p"), _(10, "This game is "), d(11, "u"), _(12, "completely free"), f(), _(13, " and provided "), d(14, "u"), _(15, "without any ads"), f(), _(16, "."), f(), d(17, "p"), _(18, " If you like this game and wish to support it, feel free to give whatever you want "), d(19, "a", 174), _(20, "here"), f(), _(21, "."), f(), d(22, "p"), _(23, " Note: OG dev has discontinued support/development. Donation links have been preserved out of respect. "), f(), d(24, "h3"), _(25, "Credits"), f(), d(26, "div"), _(27, "Original icons made by "), d(28, "a", 175), _(29, "Freepik"), f(), d(30, "p"), _(31, "Substitute icons made by game-icons.net"), f(), f(), f()
+                        }), d(4, "span", 172), _(5, "\xd7"), f(), f(), f(), d(6, "div", 173), d(7, "h3"), _(8, "Support"), f(), d(9, "p"), _(10, "This game is "), d(11, "u"), _(12, "completely free"), f(), _(13, " and provided "), d(14, "u"), _(15, "without any ads"), f(), _(16, "."), f(), d(17, "p"), _(18, " If you like this game and wish to support it, feel free to give whatever you want "), d(19, "a", 174), _(20, "here"), f(), _(21, "."), f(), d(22, "p"), _(23, " Note: OG dev has discontinued support/development. Donation links have been preserved out of respect. "), f(), d(24, "h3"), _(25, "Credits"), f(), d(26, "div"), _(27, "Icons made by "), d(28, "a", 175), _(29, "Freepik"), f(), f(), f()
                     }
                 }
 
@@ -19484,7 +19484,7 @@ if (!self.__WB_pmw) {
                                 [1, "fas", "fa-chart-line"],
                                 ["class", "overflow-auto flex-fill", 4, "ngIf"],
                                 [1, "d-flex", "bg-dark", "text-light", "p-2", "topbar", "border-top", "align-center", 2, "height", "35px"],
-                                ["href", "/changelog.txt", "target", "_blank", 1, "me-2"],
+                                ["href", "changelog.txt", "target", "_blank", 1, "me-2"],
                                 ["href", "#", 1, "me-2", 3, "click"],
                                 ["target", "_blank", "href", "https://www.buymeacoffee.com/rakanishu"],
                                 ["creditsModal", ""],
