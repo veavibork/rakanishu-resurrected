@@ -12168,22 +12168,22 @@ if (!self.__WB_pmw) {
                         types: [1, 8],
                         lvl: 32
                     }, {
-                        suffix: "ease",
+                        suffix: "Ease",
                         effect: "req_10_10",
                         types: [0, 2, 3, 4, 5, 6, 7],
                         lvl: 11
                     }, {
-                        suffix: "ease",
+                        suffix: "Ease",
                         effect: "req_20_20",
                         types: [0, 2, 3, 4, 5, 6, 7],
                         lvl: 15
                     }, {
-                        suffix: "simplicity",
+                        suffix: "Simplicity",
                         effect: "req_30_30",
                         types: [0, 2, 3, 4, 5, 6, 7],
                         lvl: 19
                     }, {
-                        suffix: "simplicity",
+                        suffix: "Simplicity",
                         effect: "req_40_40",
                         types: [0, 2, 3, 4, 5, 6, 7],
                         lvl: 23
