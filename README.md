@@ -2,7 +2,9 @@ Current state: all links and game functions are expected to work as much as they
 
 ---
 
-Created by Quetzalcoatl in 2022. As of 2023:
+<img width="1920" height="930" alt="rakres" src="https://github.com/user-attachments/assets/6fa6b2d4-3f03-46f8-8c90-f5febf678436" />
+
+Rakanishu was created by Quetzalcoatl in 2022. As of 2023:
 
 "Hello, thank you for that comment about Rakanishu!
 
