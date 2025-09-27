@@ -1,5 +1,7 @@
 Current state: all links and game functions are expected to work as much as they did before. All graphics (that I know of) have been restored or replaced using game-icons.net. Some typos have been cleaned up.
 
+The game ends with act 3, so if you beat Mephisto, you beat the game. Start speedrunning!
+
 ---
 
 <img width="1920" height="930" alt="rakres" src="https://github.com/user-attachments/assets/6fa6b2d4-3f03-46f8-8c90-f5febf678436" />
