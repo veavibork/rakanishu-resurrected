@@ -1,4 +1,4 @@
-Current state: all links and game functions are expected to work as much as they did before. Some skill icons are still missing - I'm replacing them as I get to them, mostly because I'm procrastinating, I want to play the damn game myself! There are no broken icons/images in starting gameplay.
+Current state: all links and game functions are expected to work as much as they did before. All graphics (that I know of) have been restored or replaced using game-icons.net. Some typos have been cleaned up.
 
 ---
 
